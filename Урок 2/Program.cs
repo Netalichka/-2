@@ -1,19 +1,23 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
-int a = Convert.ToInt32(Console.ReadLine());
+int a = Convert.ToInt32( Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
 int c = Convert.ToInt32(Console.ReadLine());
-int min;
+int min = 0;
 if (a < b & a < c)
 {
-    Console.WriteLine("min= ", a);
+    min = a;
+    
 }
     if (b<c)
 {
-    Console.WriteLine("min= ", b);
+    min = b;
+  
   
 }
     else
 {
-    Console.WriteLine("min= ", c);
+    min = c;
+    
 }
+Console.WriteLine("min= ", min);
