@@ -4,9 +4,12 @@
 Console.WriteLine("Наталья Ракитина. Урок 2");
 Console.WriteLine("Написать метод, возвращающий минимальное из трёх чисел.");
 Console.WriteLine("=========================================================");
-int a = int.Parse(Console.readline());
-int b = int.Parse(Console.readline());
-int c = int.Parse(Console.readline());
+Console.WriteLine("Введите первое число a =");
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите второе число b =");
+int b = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите  третье число c =");
+int c = int.Parse(Console.ReadLine());
 int min = 0;
 if (a < b & a < c)
 {
@@ -24,4 +27,5 @@ else
     min = c;
 
 }
-console.writeline($"min={min} ");
+Console.WriteLine($"min={min} ");
+Console.ReadLine();
