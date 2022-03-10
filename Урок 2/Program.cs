@@ -11,11 +11,15 @@ int b = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите  третье число c =");
 int c = int.Parse(Console.ReadLine());
 int min = 0;
-if (a < b & a < c)
+if (a < b && a < c)
 {
     min = a;
 
 }
+else
+{
+
+
 if (b < c)
 {
     min = b;
@@ -26,6 +30,7 @@ else
 {
     min = c;
 
+}
 }
 Console.WriteLine($"min={min} ");
 Console.ReadLine();
